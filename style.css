@@ -1,0 +1,21 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Lobster', cursive;
+    font-size:50px;
+    }
+    #title{
+    width:100%;
+}
+canvas{
+border-radius:25px;
+animation-name:anime;
+animation-duration: 4s;
+animation-iteration-count:infinite;
+}
+@keyframes anime{
+from{box-shadow: 5px 5px 30px purple;}
+to{box-shadow: 5px 5px 30px blueviolet }
+}
